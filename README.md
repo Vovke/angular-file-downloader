@@ -47,3 +47,7 @@ Please note that headers expects to receive JSON.parse style string
 
 * bower
     `bower install angular-file-downloader --save`
+
+### Credits ###
+
+Cheers for the mimetypeConverter part to `https://github.com/rsdoiel/mimetype-js`
