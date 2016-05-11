@@ -38,10 +38,12 @@ Angular ~1.5.*
 Please note that headers expects to receive JSON.parse style string
  
 * You can use `fileDownloader.downloadFile(url, additionalHeaders)` function
-    parameters to pass:
+    
+    parameters:
         `url` - file url to download from
         `additionalHeaders` - headers object that should be added
 
 ### Package managers ###
 
-## Credits and collaboration ##
+* bower
+    `bower install angular-file-downloader --save`
