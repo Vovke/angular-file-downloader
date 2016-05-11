@@ -3,9 +3,6 @@
  */
 angular.module('angularFileDownloader', [])
     .factory('angularFileDownloader', function($http) {
-        var typesMap = {
-            pdf: 'application/pdf'
-        };
         var angularElementFileResolve = function(response){
             var file = new Blob([ response.data ], {type: 'application/pdf'});
             var url = window.URL.createObjectURL(file);

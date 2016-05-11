@@ -13,8 +13,8 @@ Angular ~1.5.*
 
 ## Usage ##
 
-Include `file-downloader.js` file in your index.html
-Include `fileDownloader` service in your app configuration
+* Include `file-downloader.js` in your index.html
+* Include `fileDownloader` service in your app configuration
 
 ```
     angular
