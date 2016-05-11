@@ -1,0 +1,27 @@
+{
+  "name": "angular-file-downloader",
+  "homepage": "https://github.com/Vovke/angular-file-downloader",
+  "version": "1.0",
+  "authors": [
+    "Vova Lando <vova.lando@gmail.com>"
+  ],
+  "description": "AngularFileDownloader is a simple, easy-to-use library for downloading files through REST, allowing altering the request.",
+  "main": "angular-file-downloader.js",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "file",
+    "REST"
+  ],
+  "license": "MIT",
+  "_release": "cd2d7a3dfc",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cd2d7a3dfc148917caf41b3c5431e4f70ada8da7"
+  },
+  "_source": "https://github.com/Vovke/angular-file-downloader.git",
+  "_target": "*",
+  "_originalSource": "angular-file-downloader",
+  "_direct": true
+}
