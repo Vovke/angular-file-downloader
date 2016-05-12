@@ -37,7 +37,7 @@ Angular ~1.5.*
 
 Please note that headers expects to receive JSON.parse style string
  
-* You can use `fileDownloader.downloadFile(url, additionalHeaders)` function
+* You can use `fileDownloader.downloadFile(url, mime, additionalHeaders)` function
     
     parameters:
         `url` - file url to download from
