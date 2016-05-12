@@ -29,7 +29,7 @@ Angular ~1.5.*
 
 ```
 ...
-    <download-link href="AAA" headers='{"xxx":"yyy"}'>
+    <download-link href='AAA' headers='{"xxx":"yyy"}' mime='application/pdf'>
         <button>Download</button>
     </download-link>
 ...
@@ -41,6 +41,7 @@ Please note that headers expects to receive JSON.parse style string
     
     parameters:
         `url` - file url to download from
+        `mime` - content mime type should be set, default `text/plain` will be used if not set
         `additionalHeaders` - headers object that should be added
 
 ### Package managers ###
@@ -50,4 +51,3 @@ Please note that headers expects to receive JSON.parse style string
 
 ### Credits ###
 
-Cheers for the mimetypeConverter part to `https://github.com/rsdoiel/mimetype-js`
