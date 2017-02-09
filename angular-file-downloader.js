@@ -8,6 +8,7 @@ angular.module('angularFileDownloader', [])
             var file = new Blob([ response.data ], {type: contentMimeType});
             var url = window.URL.createObjectURL(file);
             var anchor = angular.element('<a/>');
+            var fileName = 'file';
             anchor.attr({
                 href : url,
                 target : '_blank',
