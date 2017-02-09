@@ -20,7 +20,7 @@ Angular ~1.5.*
     angular
         .module('yourApp', [
             ...
-            'fileDownloader',
+            'angularFileDownloader',
             ...
         ]);
 ```
